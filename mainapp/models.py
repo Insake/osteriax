@@ -70,8 +70,6 @@ class Moto(Product):
     def __str__(self):
         return '{} : {}'.format(self.category.name, self.title)
 
-class Trucks(Product):
-    pass
 
 
 class CartProduct(models.Model):
