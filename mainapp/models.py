@@ -71,6 +71,7 @@ class Moto(Product):
         return '{} : {}'.format(self.category.name, self.title)
 
 class Trucks(Product):
+    pass
 
 
 class CartProduct(models.Model):
